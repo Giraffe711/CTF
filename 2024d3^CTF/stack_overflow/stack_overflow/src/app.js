@@ -55,6 +55,7 @@ app.post('/', (req, res) => {
          
             stack[getIndex(buf) + i] = ori[i]
         }
+        console.log("after read:",stack)
     }
 
     let write = function (fd, buf, count) {
