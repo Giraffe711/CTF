@@ -9,7 +9,7 @@ app.use('/static', express.static('static'))
 const pie = parseInt(Math.random() * 0xffffffff)
 
 function waf(str) {
-    let pattern = /(call_interface)|\{\{.*?\}\}/g;
+    let pattern = /(call_interfac)|\{\{.*?\}\}/g;
     return str.match(pattern)
 }
 
@@ -43,14 +43,14 @@ app.post('/', (req, res) => {
         }
 
         if (typeof ori !== "string" && !Array.isArray(ori)) {
-                return res.json({"err": "hack!"})
+                return res.json({"err": "error type hack!"})
         }
         
         
 
         for (let i = 0; i < count; i++){
             if (waf(ori[i])) {
-                return res.json({"err": "hack!"})
+                return res.json({"err": "waf not pass hack!"})
             }
          
             stack[getIndex(buf) + i] = ori[i]
@@ -96,15 +96,19 @@ app.post('/', (req, res) => {
                     break;
                 case "call_interface": // 如果缓冲区中指定地址的值为 "call_interface"
                     let numOfArgs = stack.pop() // 弹出栈顶元素，作为接口调用的参数数量
+                    console.log("numOfArgs:",numOfArgs)
                     let cmd = stack.pop() // 弹出栈顶元素，作为接口调用的命令
                     let args = [] // 定义一个数组，用于存储接口调用的参数
                     for (let i = 0; i < numOfArgs; i++) { // 遍历参数数量次
                         args.push(stack.pop()) // 弹出栈顶元素，并将其添加到参数数组中
+                        console.log("args:",args)
                     }
                     cmd += "('"  + args.join("','") + "')" // 构建完整的接口调用命令
                     console.log("cmd:",cmd)
                     let result = vm.runInNewContext(cmd) // 在新的上下文中执行接口调用命令，并将结果赋值给变量 result
                     stack.push(result.toString()) // 将接口调用结果转换为字符串，并将其压入栈中
+
+                    console.log("after run cmd:",stack)
                     break;
                 case "push": // 如果缓冲区中指定地址的值为 "push"
                     let numOfElem = stack.pop() // 弹出栈顶元素，作为要压入栈的元素数量

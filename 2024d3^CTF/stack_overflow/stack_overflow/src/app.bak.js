@@ -42,14 +42,14 @@ app.post('/', (req, res) => {
         }
 
         if (typeof ori !== "string" && !Array.isArray(ori)) {
-                return res.json({"err": "hack!"})
+                return res.json({"err": "type error hack!"})
         }
         
         
 
         for (let i = 0; i < count; i++){
             if (waf(ori[i])) {
-                return res.json({"err": "hack!"})
+                return res.json({"err": "waf not pass hack!"})
             }
          
             stack[getIndex(buf) + i] = ori[i]

