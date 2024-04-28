@@ -1,0 +1,157 @@
+Successfully built 17281e00f02a
+Successfully tagged stack_overflow_stack-overflow:latest
+Recreating stack_overflow_stack-overflow_1 ... done
+Attaching to stack_overflow_stack-overflow_1
+stack-overflow_1  | listen on 3090
+stack-overflow_1  | pie: 1740299498
+stack-overflow_1  | []
+stack-overflow_1  | i: 21 eval: 0
+stack-overflow_1  | i: 27 eval: 24
+stack-overflow_1  | i: 31 eval: 0
+stack-overflow_1  | i: 36 eval: 34
+stack-overflow_1  | i: 39 eval: 0
+stack-overflow_1  | i: 47 eval: 45
+stack-overflow_1  | i: 56 eval: 54
+stack-overflow_1  | i: 65 eval: 63
+stack-overflow_1  | [
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '0',
+stack-overflow_1  |   '28',
+stack-overflow_1  |   '1740299498',
+stack-overflow_1  |   'stdin',
+stack-overflow_1  |   'read',
+stack-overflow_1  |   'Started Convertion...',
+stack-overflow_1  |   'Your input is:',
+stack-overflow_1  |   '2',
+stack-overflow_1  |   '1740299522',
+stack-overflow_1  |   'stdout',
+stack-overflow_1  |   'write',
+stack-overflow_1  |   '5',
+stack-overflow_1  |   '1740299498',
+stack-overflow_1  |   'stdout',
+stack-overflow_1  |   'write',
+stack-overflow_1  |   '...',
+stack-overflow_1  |   '1',
+stack-overflow_1  |   '1740299532',
+stack-overflow_1  |   'stdout',
+stack-overflow_1  |   'write',
+stack-overflow_1  |   '1740299498',
+stack-overflow_1  |   '5',
+stack-overflow_1  |   'push',
+stack-overflow_1  |   "(function (...a){  return a.map(char=>char.charCodeAt(0)).join(' ');})",
+stack-overflow_1  |   '5',
+stack-overflow_1  |   'call_interface',
+stack-overflow_1  |   'Ascii is:',
+stack-overflow_1  |   '1',
+stack-overflow_1  |   '1740299543',
+stack-overflow_1  |   'result',
+stack-overflow_1  |   'write',
+stack-overflow_1  |   '1',
+stack-overflow_1  |   '{{ stack - 2 }}',
+stack-overflow_1  |   'result',
+stack-overflow_1  |   'write',
+stack-overflow_1  |   'Ascii is:',
+stack-overflow_1  |   '1',
+stack-overflow_1  |   '1740299552',
+stack-overflow_1  |   'stdout',
+stack-overflow_1  |   'write',
+stack-overflow_1  |   '1',
+stack-overflow_1  |   '{{ stack - 3 }}',
+stack-overflow_1  |   'stdout',
+stack-overflow_1  |   'write',
+stack-overflow_1  |   'ok',
+stack-overflow_1  |   '1',
+stack-overflow_1  |   '1740299561',
+stack-overflow_1  |   'status',
+stack-overflow_1  |   'write',
+stack-overflow_1  |   'exit'
+stack-overflow_1  | ]
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 28
+stack-overflow_1  | getStack_address 1740299498
+stack-overflow_1  | getStack_address stdin
+stack-overflow_1  | getStack_address read
+stack-overflow_1  | getStack_address Started Convertion...
+stack-overflow_1  | getStack_address Your input is:
+stack-overflow_1  | getStack_address 2
+stack-overflow_1  | getStack_address 1740299522
+stack-overflow_1  | getStack_address stdout
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address 5
+stack-overflow_1  | getStack_address 1740299498
+stack-overflow_1  | getStack_address stdout
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address ...
+stack-overflow_1  | getStack_address 1
+stack-overflow_1  | getStack_address 1740299532
+stack-overflow_1  | getStack_address stdout
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address 1740299498
+stack-overflow_1  | getStack_address 5
+stack-overflow_1  | getStack_address push
+stack-overflow_1  | getStack_address (function (...a){  return a.map(char=>char.charCodeAt(0)).join(' ');})
+stack-overflow_1  | getStack_address 5
+stack-overflow_1  | getStack_address call_interface
+stack-overflow_1  | getStack_address Ascii is:
+stack-overflow_1  | getStack_address 1
+stack-overflow_1  | getStack_address 1740299543
+stack-overflow_1  | getStack_address result
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address 1
+stack-overflow_1  | getStack_address {{ stack - 2 }}
+stack-overflow_1  | getStack_address result
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address Ascii is:
+stack-overflow_1  | getStack_address 1
+stack-overflow_1  | getStack_address 1740299552
+stack-overflow_1  | getStack_address stdout
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address 1
+stack-overflow_1  | getStack_address {{ stack - 3 }}
+stack-overflow_1  | getStack_address stdout
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address ok
+stack-overflow_1  | getStack_address 1
+stack-overflow_1  | getStack_address 1740299561
+stack-overflow_1  | getStack_address status
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address exit
+
+

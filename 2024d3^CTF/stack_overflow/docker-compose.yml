@@ -1,0 +1,7 @@
+version: '3'
+services:
+  stack-overflow:
+    build: ./stack_overflow
+    ports:
+      - "3090:3090"
+    restart: unless-stopped

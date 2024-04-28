@@ -1,0 +1,69 @@
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 0
+stack-overflow_1  | getStack_address 28
+stack-overflow_1  | getStack_address 3615576426
+stack-overflow_1  | getStack_address stdin
+stack-overflow_1  | getStack_address read
+stack-overflow_1  | getStack_address Started Convertion...
+stack-overflow_1  | getStack_address Your input is:
+stack-overflow_1  | getStack_address 2  # fd stdout
+stack-overflow_1  | getStack_address 3615576450 # buf write 
+stack-overflow_1  | getStack_address stdout
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address 5
+stack-overflow_1  | getStack_address 3615576426
+stack-overflow_1  | getStack_address stdout
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address ...
+stack-overflow_1  | getStack_address 1
+stack-overflow_1  | getStack_address 3615576460
+stack-overflow_1  | getStack_address stdout
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address 3615576426
+stack-overflow_1  | getStack_address 5
+stack-overflow_1  | getStack_address push
+stack-overflow_1  | getStack_address (function (...a){  return a.map(char=>char.charCodeAt(0)).join(' ');})
+stack-overflow_1  | getStack_address 5
+stack-overflow_1  | getStack_address call_interface
+stack-overflow_1  | getStack_address Ascii is:
+stack-overflow_1  | getStack_address 1
+stack-overflow_1  | getStack_address 3615576471
+stack-overflow_1  | getStack_address result
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address 1
+stack-overflow_1  | getStack_address {{ stack - 2 }}
+stack-overflow_1  | getStack_address result
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address Ascii is:
+stack-overflow_1  | getStack_address 1
+stack-overflow_1  | getStack_address 3615576480
+stack-overflow_1  | getStack_address stdout
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address 1
+stack-overflow_1  | getStack_address {{ stack - 3 }}
+stack-overflow_1  | getStack_address stdout
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address ok
+stack-overflow_1  | getStack_address 1
+stack-overflow_1  | getStack_address 3615576489
+stack-overflow_1  | getStack_address status
+stack-overflow_1  | getStack_address write
+stack-overflow_1  | getStack_address exit
